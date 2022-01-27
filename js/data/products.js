@@ -3,7 +3,7 @@ export const products = [
         id: 'product-1',
         name: 'Sticker',
         price: 0.99,
-        image: 'https://m.media-amazon.com/images/I/81EGjksf6IS._SL1500_.jpg',
+        image: './img/img0.png',
         description: [
             {
                 text: 'Motivational Sticker to get you throughout the day!',
@@ -20,7 +20,7 @@ export const products = [
         id: 'product-2',
         name: 'Product Title',
         price: 5.95,
-        image: 'https://m.media-amazon.com/images/I/61WgmLgwuQL._AC_SL1023_.jpg',
+        image: './img/img1.png',
         description: [
             {
                 text: '',
@@ -46,7 +46,7 @@ export const products = [
         id: 'product-3',
         name: 'Product Title',
         price: 19.99,
-        image: 'https://m.media-amazon.com/images/I/71NMrhZel6L._SL1500_.jpg',
+        image: './img/img2.png',
         description: [
             {
                 text: '',
@@ -72,7 +72,7 @@ export const products = [
         id: 'product-4',
         name: 'Product Title',
         price: 24.99,
-        image: 'https://m.media-amazon.com/images/I/71K2-Ib6wIL._AC_SL1500_.jpg',
+        image: './img/img3.png',
         description: [
             {
                 text: '',
@@ -99,7 +99,7 @@ export const products = [
         id: 'product-5',
         name: 'Product Title',
         price: 39.99,
-        image: 'https://m.media-amazon.com/images/I/71IywmQMCTL._AC_SL1500_.jpg',
+        image: './img/img4.png',
         description: [
             {
                 text: '',
@@ -126,7 +126,7 @@ export const products = [
         id: 'product-6',
         name: 'Product Title',
         price: 49.95,
-        image: 'https://m.media-amazon.com/images/I/81C1DGnCNsL._AC_SL1500_.jpg',
+        image: './img/img5.png',
         description: [
             {
                 text: '',
@@ -153,7 +153,7 @@ export const products = [
         id: 'product-7',
         name: 'Product Title',
         price: 89.99,
-        image: 'https://m.media-amazon.com/images/I/61kwRNPtMpL._SL1500_.jpg',
+        image: './img/img6.png',
         description: [
             {
                 text: '',
@@ -180,7 +180,7 @@ export const products = [
         id: 'product-8',
         name: 'Product Title',
         price: 106.58,
-        image: 'https://m.media-amazon.com/images/I/61O9tWR6WDS._SL1475_.jpg',
+        image: './img/img7.png',
         description: [
             {
                 text: '',
@@ -206,7 +206,7 @@ export const products = [
         id: 'product-9',
         name: 'Product Title',
         price: 109.00,
-        image: 'https://m.media-amazon.com/images/I/812wiz16nlL._AC_SL1500_.jpg',
+        image: './img/img8.png',
         description: [
             {
                 text: '',
@@ -233,7 +233,7 @@ export const products = [
         id: 'product-10',
         name: 'Product Title',
         price: 115.89,
-        image: 'https://m.media-amazon.com/images/I/61hqjITqd5L._AC_SL1500_.jpg',
+        image: './img/img9.png',
         description: [
             {
                 text: '',
@@ -260,7 +260,7 @@ export const products = [
         id: 'product-11',
         name: 'Product Title',
         price: 119.00,
-        image: 'https://m.media-amazon.com/images/I/61Q+4GtGuAL._AC_SL1500_.jpg',
+        image: './img/img10.png',
         description: [
             {
                 text: '',
@@ -287,7 +287,7 @@ export const products = [
         id: 'product-12',
         name: 'Product Title',
         price: 122.00,
-        image: 'https://m.media-amazon.com/images/I/81E4iCssGEL._AC_SL1500_.jpg',
+        image: './img/img11.png',
         description: [
             {
                 text: '',
@@ -314,7 +314,7 @@ export const products = [
         id: 'product-13',
         name: 'Product Title',
         price: 124.53,
-        image: 'https://m.media-amazon.com/images/I/91EpbuMiGuL._AC_SL1500_.jpg',
+        image: './img/img12.png',
         description: [
             {
                 text: '',
@@ -341,7 +341,7 @@ export const products = [
         id: 'product-14',
         name: 'Product Title',
         price: 129.87,
-        image: 'https://m.media-amazon.com/images/I/91C-AH4m-EL._AC_SL1500_.jpg',
+        image: './img/img13.png',
         description: [
             {
                 text: '',
