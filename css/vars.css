@@ -1,0 +1,22 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  --first-brand-color: #a8e4f8;
+  --second-brand-color: #03509c;
+  --third-brand-color: #e7e7e7;
+  --fourth-brand-color: red;
+
+  --main-font:  'Montserrat';
+  --title-font:  'Montserrat Bold';
+  --main-title-font: 'Moniqa Black Display';
+
+  font-size: 62.5%;
+}

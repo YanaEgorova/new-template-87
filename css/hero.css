@@ -1,0 +1,33 @@
+.hero__wrapper { 
+    background-color: var(--main-bg-color);
+    background-image: url('../img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#wave {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero {
+    padding: 32rem 0 7rem;
+    text-align: center;
+}
+.hero .title {
+    margin-bottom: 2rem;
+    color: var(--sub-text-color);
+    text-shadow: .3rem .3rem .3rem #003162;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        text-align: left;
+    }
+    .hero .title {
+        font-size: 30rem;
+    }
+  
+}

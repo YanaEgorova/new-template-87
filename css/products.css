@@ -1,0 +1,187 @@
+.products__wrapper { 
+    position: relative;
+    background-repeat: no-repeat;
+}
+.products {
+    text-align: center;
+    padding: 30rem 0 40rem;
+    position: relative;
+    z-index: 2;
+}
+.hero-products .products {
+    padding: 15rem 0 0;
+}
+.products .container {
+    position: relative;
+}
+.products__title {
+    font-family: var(--title-font);
+    font-size: 5rem;
+}
+.sub-title__box {
+    position: relative;
+    margin-bottom: 3rem;
+    max-width: 140rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.prod__title {
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    font-family: var(--title-font);
+}
+.success-message {
+    background-color: var(--success);
+    font-family: var(--title-font);
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+    visibility: hidden;
+    margin-bottom: 2rem;
+}
+.success-message > * {
+    font-family: inherit;
+    font-size: inherit;
+}
+.success-message--active {
+    opacity: 1;
+    visibility: visible;
+}
+.products .sub-title {
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+.products .item {
+    position: relative;
+}
+.product__block {
+    padding: 2rem;
+    position: relative;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.product__img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    height: 60rem;
+    max-height: 60rem;
+    padding: 2rem;
+    background-color: var(--main-bg-color);
+}
+
+.product__img-box .img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.mySwiper2 .product__img-box .img {
+    height: 35rem;
+    max-height: 35rem;
+}
+.product__name {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+.product__price {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 3rem;
+    font-family: var(--title-font);
+}
+.product__text-box {
+    background-image: url('../img/bg.jpeg');
+    background-image: linear-gradient(to right bottom, rgba(215, 224, 242, .7), rgba(205, 228, 242, .7), rgba(198, 231, 237, .7), rgba(198, 233, 228, .7), rgba(205, 233, 216,.7));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: calc(100% + 4rem);
+    margin-left: -2rem;
+    padding: 6rem 3rem 3rem;
+    margin-top: -5rem;
+    position: relative;
+}
+.product__btn-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product__btn-block .btn {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.product__btn-block .btn:first-child {
+   margin-bottom: 2rem;
+}
+#wave3, #wave4 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.products__list .item:nth-child(odd) {
+    background-image: url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .products__list .item:nth-child(even) {
+    background-image: url('../img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (min-width: 1440px) { 
+
+  .product__img-box {
+      padding: 2rem 5rem;
+      width: 50%;
+      min-width: 50%;
+      max-width: 50%;
+  }
+  .product__text-box {
+    margin-left: -5rem;
+    padding: 6rem;
+    margin-top: 0;
+    text-align: left;
+  }
+  .product__btn-block {
+    flex-direction: row;
+  }
+  .product__btn-block .btn:first-child {
+    margin-bottom: 0;
+    margin-right: 3rem;
+  }
+
+  .products__list .item .product__block {
+    max-width: 140rem;
+    display: flex;
+    align-items: center;
+ }
+ .products__list .item:nth-child(even) .product__block {
+    flex-direction: row-reverse;
+ }
+ .products__list .item:nth-child(even) .product__text-box {
+    text-align: right;
+    margin-left: 0;
+    margin-right: -5rem;
+ }
+}
+
+
+
