@@ -1,6 +1,6 @@
 .hero__wrapper { 
     background-color: var(--main-bg-color);
-    background-image: url('../img/bg.jpeg');
+    background-image: radial-gradient(circle, var(--first-brand-color), var(--second-brand-color),var(--third-brand-color));
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

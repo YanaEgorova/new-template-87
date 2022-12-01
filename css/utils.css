@@ -193,7 +193,7 @@ body.error-active .error__overlay {
   display: inline-block;
   text-transform: uppercase;
   border-radius: 40px;
-  background-image: linear-gradient(to right bottom, #fcceb1, #fab9ab, #f3a6ac, #e495b2, #cb89bc);
+  background-image: linear-gradient(to right bottom, var(--third-brand-color), var(--second-brand-color));
 
 
   -webkit-box-shadow: .8rem .8rem .3rem 0rem rgba(0,0,0,0.75);
