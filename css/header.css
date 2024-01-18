@@ -18,7 +18,7 @@ body.open-menu {
     cursor: pointer;
     position: relative;
     z-index: 100;
-    margin-right: 2rem;
+    margin-left: 2rem;
 }
 .header__btn span {
     display: block;
@@ -66,8 +66,9 @@ body.open-menu {
 }
 .cart__span-box {
     font-size: 2.2rem;
-    display: none;
+    display: flex;
     align-items: center;
+    margin-right: 1rem;
 }
 .cart__span-box svg {
     display: block;
@@ -231,7 +232,7 @@ body.open-menu {
         overflow: hidden;
     }
     .nav__item:last-child .nav__sub-list {
-        left: -13rem;
+        left: -16rem;
     }
 
     .nav__item:hover .nav__sub-list {
